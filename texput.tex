@@ -234,16 +234,16 @@
   you must do some \texttt{git}-steps (and some of them are below).
 
 \item Make a fork of the
-  \href{https://github.com/Tecnologias-multimedia/intercom}{InterCom}
+  \href{https://github.com/<orgainization\_name>/<repo\_name>}{<repo\_name>}
   project. We will call to this repo the
   \href{https://docs.github.com/en/github/getting-started-with-github/github-glossary#upstream}{\emph{upstream}}, whose URL is
 \begin{verbatim}
-  git@github.com:Tecnologias-multimedia/intercom.git
+  git@github.com:<orgainization_name>/<repo_name>.git
 \end{verbatim}        
   This info can be found when you
   \href{https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository}{clone}
-  the InterCom. Notice, that the action of clonning (not forking) the
-  InterCom is a waste of time because you cannot contribute directly
+  the <repo\_name>. Notice, that the action of clonning (not forking) the
+  <repo\_name> is a waste of time because you cannot contribute directly
   to it (remember, you must \texttt{clone} your own repo).
 
 \item Add the
@@ -256,7 +256,7 @@
   \emph{upstream} with:
 
   \begin{lstlisting}[language=bash]
-    git remote add upstream git@github.com:Tecnologias-multimedia/intercom.git
+    git remote add upstream git@github.com:<orgainization_name>/<repo_name>.git
   \end{lstlisting}
 
   Check that everything has worked with:
@@ -268,10 +268,10 @@
   where you should see two remotes: \emph{origin} and \emph{upstream}. Something similar to:
 
 \begin{verbatim}
-origin   git@github.com:you_at_GitHub/intercom.git (fetch)
-origin   git@github.com:you_at_GitHub/intercom.git (push)
-upstream git@github.com:Tecnologias-multimedia/intercom.git (fetch)
-upstream git@github.com:Tecnologias-multimedia/intercom.git (push)
+origin   git@github.com:you_at_GitHub/<repo\_name>.git (fetch)
+origin   git@github.com:you_at_GitHub/<repo\_name>.git (push)
+upstream git@github.com:<orgainization_name>/<repo\_name>.git (fetch)
+upstream git@github.com:<orgainization_name>/<repo\_name>.git (push)
 \end{verbatim}
 
 \item Finally, to update your local repo write:
@@ -306,4 +306,4 @@ None.
 
 \section{Resources}
 
-\bibliography{git,intercom}
+\bibliography{git}
